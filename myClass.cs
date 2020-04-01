@@ -11,5 +11,10 @@ namespace GitExercise
             Adresse = adresse;
             Postnummer = postnummer;
         }
+        public override string ToString()
+        {
+            return Navn + Adresse + Postnummer;
+        }
+
     }
 }
