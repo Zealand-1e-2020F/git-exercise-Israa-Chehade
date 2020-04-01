@@ -13,8 +13,9 @@ namespace GitExercise
         }
         public override string ToString()
         {
-            return Navn + Adresse + Postnummer;
+            return "Navnet er " + Navn + " adressen er " + Adresse + " postnr er " + Postnummer;
         }
+
 
     }
 }
